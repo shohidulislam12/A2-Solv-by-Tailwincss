@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fitness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9cccb8ef2e.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+     body{
+        font-family: "Inter", sans-serif;
+     }
+
+
+
+        </style>
+        
 </head>
-<body>
-    
+<body class="max-w-screen-xl mx-auto px-4 lg:px-28 py-10 my-0 bg-[#232323] text-white">
+    <header>
+       <nav class="flex justify-between  items-center  ">
+          <h2 class="text-[#E6533C] text-4xl  font-extrabold">Fitness</h2>
+        <div> <i class="fa-solid fa-bars inline sm:hidden  "></i></div>
+          <ul class=" flex justify-center gap-10 border   rounded-xl p-1 hidden sm:contents ">
+             <li><button class="bg-orange-500 rounded-xl px-2 ">Home</button></li>
+             <li>Service</li>
+             <li>Contact</li>
+             <li>About</li>
+
+          </ul>
+
+       </nav>
+        <!-- banner -->
+         <div class="my-5 grid grid-cols-1 sm:grid-cols-2  items-center">
+                 <div> 
+                    <h3 class="font-extrabold text-5xl">Get body in <br>
+                         <span class="italic">shape</span> & stay <br> healthy</h3>
+                    <p class="my-5 text-gray-400">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <div class="flex justify-center gap-10 mx-auto  ">
+                        <button class="bg-orange-500 rounded-xl p-2 ">Join Club Now!</button>
+                        <button class="bg-orange-500 rounded-xl p-2 border bg-transparent ">Download App</button>
+                    </div>
+                 </div>
+               <div class="relative" >
+        <img class="flex justify-center gap-10 mx-auto" src="images/Images 2.png" alt="">
+                     <div class="absolute items-center rounded-xl  border mx-auto top-[23%] left-[50%]  bg-transparent p-2 bg-[#453932]">
+                     <h3 class="text-3xl font-bold text-center   ">500+</h3>
+                    <p class="text-center text-sm text-gray-400"> Free Workout Videos</p>
+                     </div>
+                     <div class="absolute flex gap-3 items-center rounded-xl  border mx-auto top-[80%] left-[10%]  bg-transparent p-2 bg-[#453932]">
+                        <div class=" w-10 h-10 rounded-full bg-red-500">
+                    
+                        </div>
+                     <span><h3 class="text-3xl font-bold text-center   ">300+</h3>
+                        <p class="text-center text-sm text-gray-400">Video tutorial</p></span>
+                     </div>
+          
+
+
+                 
+               </div>
+
+
+
+             
+         </div>
+    </header>
+    <main>
+
+
+    </main>
+    <footer>
+
+
+    </footer>
 </body>
 </html>
