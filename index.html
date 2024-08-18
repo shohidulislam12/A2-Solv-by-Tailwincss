@@ -22,14 +22,21 @@
      body{
         font-family: "Inter", sans-serif;
      }
-
+        th{
+            font-size: 20px;
+            color: white;
+        }
+        td{
+            font-size: 16px;
+            color: gray;
+        }
 
 
         </style>
         
 </head>
-<body class="max-w-screen-xl mx-auto px-4 lg:px-28 py-10 my-0 bg-[#232323] text-white">
-    <header>
+<body class="bg-gradient-to-l from-[#000000] to-[#232323] max-w-screen-xl mx-auto px-4 lg:px-28 py-10 my-0 bg-[#000000] text-white">
+    <header class=" p-4 rounded-xl">
        <nav class="flex justify-between  items-center  ">
           <h2 class="text-[#E6533C] text-4xl  font-extrabold">Fitness</h2>
         <div> <i class="fa-solid fa-bars inline sm:hidden  "></i></div>
@@ -78,12 +85,249 @@
          </div>
     </header>
     <main>
+<!-- section-2 -->
+ <section class="  ">
+     <div>
+        <h2 class="font-extrabold text-4xl text-center">Change Your Habits</h2>
+        <p class="my-5 text-gray-400 text-center">Start by making small, sustainable changes to your daily routine that align with your fitness goals.</p>
+     </div>
+     <div class="my-10 grid sm:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-5">
+               <div >
+                <img class=" flex mx-auto rounded-full" src="images/image 2.png " alt="">
+                <h3 class="font-bold text-3xl text-center">Movement</h3>
+                <p class="my-5 text-gray-400 text-center">Movement is any physical action performed by the body, essential for exercise, sports, and daily activities</p>
+               </div>
+               <div >
+                <img class=" flex mx-auto rounded-full" src="images/image 3.png " alt="">
+                <h3 class="font-bold text-3xl text-center">Time</h3>
+                <p class="my-5 text-gray-400 text-center">Time is the ongoing sequence of events from the past, through the present, and into the future.</p>
+               </div>
+               <div >
+                <img class=" flex mx-auto rounded-full" src="images/image 4.png " alt="">
+                <h3 class="font-bold text-3xl text-center">Practice</h3>
+                <p class="my-5 text-gray-400 text-center">Practice is the repeated exercise or performance of an activity to improve skill and proficiency.
 
+                </p>
+               </div>
+               <div >
+                <img class=" flex mx-auto rounded-full" src="images/image 5.png " alt="">
+                <h3 class="font-bold text-3xl text-center">Weight Loss</h3>
+                <p class="my-5 text-gray-400 text-center">Weight loss is typically by combining healthy eating, regular exercise, and lifestyle changes.</p>
+               </div>
+
+
+
+
+
+
+     </div>
+
+ </section>
+  <!-- section-3 -->
+
+  <section class="my-10 grid sm:grid-cols-2 grid-cols-1 gap-5 bg-[#222222] p-6 items-center rounded-2xl">
+<div  >
+    <h2 class="font-extrabold text-4xl text-center">Run an Extra 
+        Mile Easily</h2>
+        <p class="my-5 text-gray-400 text-center">Gradually build up your stamina by increasing your distance little by little each week.Focus on your breathing and pace yourself to maintain energy throughout the run.</p>
+        <div class="flex ">
+            <button class=" w-[150px]  mx-auto bg-orange-500 rounded-xl p-2  ">Join Club Now!</button>
+        </div>
+</div>
+<div class="flex sm:justify-end justify-center">
+
+    <img class="w-4/5 flex justify-end rounded-xl"  src="images/run.jpg" alt="">
+</div>
+  </section>
+
+ <!-- section-4 -->
+ <section class="my-10  p-6 items-center rounded-2xl ">
+    <div  >
+        <h2 class="font-extrabold text-4xl text-center">BMI Calculator</h2>
+            <p class="my-5 text-gray-400 text-center">Use a BMI calculator to monitor your body mass index, but remember that it’s just one tool and doesn’t account for muscle mass or overall fitness.</p>
+    </div>
+    <div class="my-10 bg-[#222222] grid sm:grid-cols-2 grid-cols-1 items-center  ">
+        <!-- table -->
+     <div class="mx-auto">
+  <h2 class="font-bold text-2xl text-center">BMI Calculator Chart</h2>
+  <table class=" my-10 flex ">
+      <tr  class="border border-collapse" >
+        <th  class="border border-collapse p-3" >BMI </th>
+        <th  class="border border-collapse p-3" >Weight Status</th>
+      </tr>
+      <tr class="border border-collapse">
+        <td class="border border-collapse  p-2 ">Below 18.5</td>
+        <td class="border border-collapse">Underweight</td>
+      </tr>
+      <tr class="border border-collapse">
+        <td class="border border-collapse  p-2">18.5 - 24.9</td>
+        <td class="border border-collapse">Healthy</td>
+      </tr>
+      <tr class="border border-collapse">
+        <td class="border border-collapse  p-2" >25.0 - 29.9</td>
+        <td class="border border-collapse">Overweight</td>
+      </tr >
+      <tr class="border border-collapse ">
+        <td class="border border-collapse  p-2">30.0 -and Above</td>
+        <td class="border border-collapse">Obese</td>
+      </tr>
+
+  </table>
+     </div>
+     <!-- form -->
+      <div class="gap-3">
+        <h2 class="font-bold text-2xl text-center">Calculate your BMI</h2>
+        <p class="my-5 text-gray-400 text-center">If you prefer, you can use an online BMI calculator by inputting your weight and height.</p>
+        <input class="rounded-lg bg-transparent border  my-3 p-2 w-[45%]" type="text" name="height" id="" placeholder=" Height/cm  "> 
+        <input class="rounded-lg bg-transparent border p-2 w-[45%]" type="text" name="weight" id="" placeholder=" Weight/kg "> 
+        <input class="rounded-lg bg-transparent border p-2 w-[45%]" type="text" name="height" id="" placeholder=" Age "> 
+      <select class="rounded-lg text-gray-400 bg-transparent border p-2 w-[45%]"  name="sex" id="sex" >
+  <option class="bg-transparent" value="sex">sex</option>
+  <option value="Male">Male</option>
+  <option value="Femal">Femal</option>
+  <option value="other" >other</option>
+      </select>
+      <select class="rounded-lg my-2 text-gray-400 bg-transparent border p-2 w-[90%]"  name="activities" id="activities" >
+  <option class="bg-transparent" value="">Select an activity factor</option>
+  <option value="Male">Male</option>
+  <option value="Femal">Femal</option>
+  <option value="other" >other</option>
+      </select>
+      <div class="flex ">
+        <button class=" w-[150px] my-10  mx-auto bg-orange-600 rounded-xl p-2  ">Calculate </button>
+    </div>
+      </div>
+
+    </div>
+<!-- section-5 -->
+<section class="my-10  p-6 items-center rounded-2xl ">
+    <div  >
+        <h2 class="font-extrabold text-4xl text-center">Meet Our Team</h2>
+            <p class="my-5 text-gray-400 text-center">Get to know the experts who can help you on your fitness journey, from personal trainers to nutritionists.</p>
+    </div>
+    <div class="  bg-[#222222] items-center  grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:p-4 p-1">
+    <div class="relative p-1 ">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer1.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Jeromi Bell</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+    <div class="relative p-1">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer2.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Cameron William</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+    <div class="relative p-1 ">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer3.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Darrel Steward</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+    <div class="relative p-1">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer4.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Dinne Russel</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+    <div class="relative p-1 ">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer5.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Cody Fisher</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+    <div class="relative p-1">        
+    <img class=" sm:h-64 sm:w-72 w-full h-full rounded-xl" src="images/trainer6.png" alt="">
+    <h4 class=" absolute top-[70%] z-10 left-[5%] text-2xl">Theresa</h4>
+    <p class=" absolute top-[80%] z-10 left-[5%] text-gray-400 ">Trainer</p>
+
+    </div>
+
+
+    </div>
+
+
+ </section>
+ <!-- section-6 -->
+   <section>
+   <div>
+    <h2 class="text-4xl font-bold text-center  ">Eat <span class="text-red-600">Healthy</span></h2>
+    <p class="text-gray-400 text-center  my-2">Eating healthy has numerous benefits for your body and mind. Here are some of the key advantages</p>
+</div>
+<div class="grid lg:grid-cols-2 grid-cols-1">
+<div>
+<h2 class="text-4xl font-bold text-left text-red-500  " >Benifits of healthy food</h2>
+<ul class="my-5">
+    <li>1.Improved Physical Health+</li>
+    <li>2.Mental Well-being+</li>
+    <li>3.Long-Term Disease Prevention+</li>
+    <li>4.Better Sleep+</li>
+    <li>5.Enhanced Skin Health+</li>
+    <li>6.Longevity+</li>
+</ul>
+<button class="bg-orange-500 rounded-xl p-2 border bg-transparent ">Download App</button>
+</div>
+   <div>
+          <h2 class="text-4xl font-bold text-left text-red-500  " >some healthy food list</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 items-center gap-3">
+            <img class="w-[90%] h-[90%] rounded-2xl" src="images/im2.jpg" alt="">
+            <img class="w-[90%] h-[90%] rounded-2xl " src="images/img1.jpg" alt="">
+          </div>
+
+
+   </div>
+
+    
+</div>
+
+
+   </section>
 
     </main>
-    <footer>
-
-
-    </footer>
+    <!-- footer -->
+    <footer>  
+             <div class="flex justify-between items-center "><p class="text-4xl">Ready to get strated?</p>
+              <span>  <button  class="flex text-white mx-auto items-center  bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Get Started </button></span>
+            </div>
+        
+        <div class="grid  p-2 lg:grid-cols-4 grid-cols-2 mx-auto gap-y-10 py-10 my-10">
+                <div>
+                    <h2 class="font-bold text-2xl text-red-400 ">Quick Links</h2>
+                    <ul class="my-4  font-semibold text-sm ">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Insurance</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl  text-red-400">Our Service</h2>
+                    <ul class="my-4  font-semibold text-sm ">
+                        <li>Life Insurance</li>
+                        <li>Car Insurance</li>
+                        <li>Health Insurance</li>
+                        <li>House Insurance</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="  font-bold text-2xl  text-red-400">Help</h2>
+                    <ul class=" my-4 font-semibold text-sm ">
+                        <li>FAQs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-bold text-2xl  text-red-400">Subscribe to our newsletter</h2>
+                      <div class="flex items-center justify-between my-4 border-b   border rounded-xl"><input class="bg-transparent opacity-70  p-2 " type="email" placeholder="E-mail "></div>
+                      <div class="flex border mx-auto border bg-purple-300 p-4 rounded-2xl   gap-5">
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                    </div>
+        
+        </div>
+        
+            </footer>
 </body>
 </html>
